@@ -1,0 +1,64 @@
+/* General page styling */
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Title styling */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Input box styling */
+input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #222;
+    border-color: cyan;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    outline: none;
+}
+
+/* Input placeholder color */
+input::placeholder {
+    color: gray;
+}
+
+/* Button styling */
+button {
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: cyan;
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+/* Recommendation box styling */
+#recommendations {
+    width: 80%;
+    max-width: 600px;
+    min-height: 150px;
+    border: 3px solid cyan;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #222;
+    overflow-y: auto;
+}
