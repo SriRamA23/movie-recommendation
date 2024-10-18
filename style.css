@@ -17,12 +17,7 @@ body {
 h1 {
     margin-bottom: 20px;
     font-size: 2rem;
-        text-shadow: 0 0 10px #ccffff,   /* Light cyan inner glow */
-                 0 0 20px #ccffff, 
-                 0 0 30px #99ffff,   /* Slightly darker cyan */
-                 0 0 40px #66ffff, 
-                 0 0 50px #33ffff, 
-                 0 0 60px #00ffff; 
+
 }
 
 /* Input box styling */
